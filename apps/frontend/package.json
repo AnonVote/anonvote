@@ -4,8 +4,8 @@
   "type": "module",
   "description": "AnonVote frontend",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc && vite build",
     "preview": "vite preview",
     "test": "echo 'Skipped (requires browser environment)'"
   },

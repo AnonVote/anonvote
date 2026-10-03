@@ -21,7 +21,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "jest --runInBand --testPathIgnorePatterns=\"(docs\\.test\\.ts|AnonVoteClient\\.test\\.ts)\"",
     "test:examples": "jest --runInBand tests/examples.test.ts",
     "test:integration": "jest --runInBand -c jest.integration.config.js",
@@ -63,9 +63,6 @@
     "@eslint/js": "^9.39.5",
     "@types/jest": "29.5.12",
     "@types/node": "20.11.30",
-    "@typescript-eslint/eslint-plugin": "^8.68.0",
-    "@typescript-eslint/parser": "^8.68.0",
-    "eslint": "^10.9.1",
     "@typescript-eslint/eslint-plugin": "8.33.1",
     "@typescript-eslint/parser": "8.33.1",
     "eslint": "9.28.0",
